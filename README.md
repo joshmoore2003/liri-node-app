@@ -14,15 +14,9 @@ The goal was to use Node JS to create a LIRI bot, like iPhone's SIRI, but takes 
 ## Getting Started
 
 - Clone down repo to local computer.
-- Install the following API's
-    - Spotify API (node-spotify-api)
-    - Request
-    - OMDB
-    - Bands In Town
-    - Moment
-    - DotEnv
-- Setup a .env file on your local desktop that contains all of your API Keys for the listed above API's.
-- Run command 'node liri.js' followed by one of the switch commands listed.
+- Install all dependencies by going to the terminal and typing `npm install`
+- Setup a .env file on your local desktop that contains all of your API Keys necessary to run the app.
+- Run command 'node liri.js' followed by one of the commands listed.
     - `spotify-this-song`
     - `movie-this`
     - `do-what-it-says`

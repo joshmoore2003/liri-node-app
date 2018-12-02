@@ -80,7 +80,6 @@ switch(command){
       
     });
   }
-
   
 function  omdbData(movie){
 var omdbURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
@@ -99,8 +98,6 @@ request(omdbURL, function (error, response, body) {
   console.log('Actors: ' + body.Actors)
 });
 }
-
-
 
 function bandData(x){
   var bandInfo = "https://rest.bandsintown.com/artists/" + x + "/events?app_id=0e7c2d8429fe1e231c29537f4582c104";
