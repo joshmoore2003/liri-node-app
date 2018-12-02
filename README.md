@@ -63,10 +63,12 @@ The goal was to use Node JS to create a LIRI bot, like iPhone's SIRI, but takes 
 
 ## Tech used
 - Node.js
-- Spotify NPM Package - https://www.npmjs.com/package/node-spotify-api
+- Node-Spotify-API NPM Package - https://www.npmjs.com/package/node-spotify-api
 - Request NPM Package - https://www.npmjs.com/package/request
 - Moment NPM Package - https://www.npmjs.com/package/moment
 - DotEnv Package - https://www.npmjs.com/package/dotenv
+- OMDB API - http://www.omdbapi.com/
+- Bands In Town API - http://www.artists.bandsintown.com/bandsintown-api
 
 ## Prerequisites
 ```
